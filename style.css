@@ -8,9 +8,23 @@
 .navbar{
     height: 4rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: beige;
+    padding: 0 2.5rem;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 7rem;
+}
+
+li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
 }
 
 h1{
